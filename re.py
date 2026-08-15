@@ -3,6 +3,8 @@ import requests
 import re
 from time import sleep
 
+# This lab has you ping a specific IP Address to find it’s MAC Address and then shows you it’s vendor.
+
 command = 'arp -a'
 response = subprocess.check_output(command , shell=True)
 #print(response)
